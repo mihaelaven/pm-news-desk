@@ -1,5 +1,22 @@
-# Validation
+# Testing and limitations
 
-The original store-unavailable browser state was smoke-checked. Artifact database access, reader marks and agent writes remain unverified. A supported artifact host and a populated store are required for live content.
+## Checked
 
-Extraction checks verify that the app HTML matches the source, the bundled instructions and examples are present, JavaScript parses, and repository-relative README links resolve. These checks do not establish live connector compatibility.
+Basic browser checks cover the Store unavailable state. The standalone HTML matches the extracted source.
+
+The extraction checks also cover JavaScript syntax, bundled files and local documentation links.
+
+## Next checks
+
+- Writing a digest through ArtifactData and reading it in the app.
+- Saving read marks and favourites for signed-in readers.
+- Handling repeat stories and empty runs.
+- Source failures, more browsers and mobile layouts.
+
+## Before using real data
+
+Start with fictional data and a test destination. Review owners, dates, source links and proposed writes. Keep a separate copy of important results.
+
+## Test the connected workflow
+
+Follow the setup steps in the [README](../README.md), using a test account or store. Compare each result with its source, then confirm that a change appears in the intended destination.

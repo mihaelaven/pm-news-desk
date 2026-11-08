@@ -1,32 +1,31 @@
 # PM News Desk
 
+Read a product-management news digest prepared by a companion agent. Browse topics, mark stories as read and save favourites.
 
-**Browser:** store-unavailable state. **Claude artifact:** database-backed news reader. **Live content:** requires the news agent to populate the same artifact store; not verified end to end.
+![PM News Desk preview](docs/preview.png)
 
-## Set up
+**Status: experimental.** Live content requires a compatible Claude artifact host and a populated news store. A regular browser shows **Store unavailable**.
 
-1. Supply `index.html` to a host that can create Claude artifacts and request `db` and `user` capabilities.
-2. Open the published artifact while signed in. An empty store is expected until a digest is written.
-3. Run the [PM news agent](agents/pm-news-digest.md), supplying this artifact's link as **Digest store**. The runner must have the `ArtifactData` write tool; a plain Claude Code session is not assumed to have it.
-4. Confirm a run record and its items appear. Verify a source link before setting up a recurring run.
+## Set it up
 
-Without store access, the app displays **Store unavailable**. It has no local news-fetching fallback and does not generate articles. It stores per-user read marks and favourites when user identity is available.
+1. Ask a compatible Claude host to create an artifact from `index.html` with `db` and `user` capabilities.
+2. Open the artifact while signed in.
+3. Give the [news agent](agents/pm-news-digest.md) the artifact link as **Digest store**. The agent needs the host's `ArtifactData` write tool.
+4. Run one digest. Check that the run and stories appear, then open a source link to verify it.
+5. Set up a recurring run through your assistant host when you are ready.
 
-## Data contract
+The agent gathers stories. The app reads the stored digest and saves each signed-in reader's read marks and favourites.
 
-The agent defines `items/<id>` and `runs/<runId>`. The app reads those collections and stores reader marks beneath `data/users/<uid>`. Initial queries request up to 60 runs and 1,000 items. `runId` associates an item with a run; the current agent retains an existing item's original run ID, so a repeat story stays associated with its first run.
+## Limitations and testing
 
-## Limitations and validation
+- Article collection depends on reachable sources and visible publication dates.
+- A digest can contain zero stories when sources are blocked or outside the selected period.
+- Initial queries load up to 60 runs and 1,000 items.
+- A repeat story stays linked to the first run that stored it.
+- The browser's disconnected state has basic checks. Live store access, read marks, favourites and agent writes await testing.
 
-Sources can be blocked or outside the time window; an empty run is valid. The agent records blocked sources rather than filling gaps from memory. It writes the report in chat when no store is supplied. Installing an agent does not schedule it or grant artifact-store access.
+See [testing details](docs/validation.md). Use a test artifact store for the first connected run.
 
-The disconnected browser state is smoke-checked. Artifact database access, reader marks, and agent writes remain unverified; see [validation](docs/validation.md). The screenshot shows the actual disconnected state rather than invented live news.
+## About this copy
 
-
-## Standalone repository
-
-This app was extracted from PM Toolkit. It contains its own HTML, screenshot, license, companion instructions and relevant examples. There is no build step and no package installation required to open the page. Optional Google Fonts requests need an internet connection; system fonts are the fallback.
-
-For a local web address, run `python3 -m http.server 8000` in this folder and open [the app](http://localhost:8000). This local server does not enable any connected feature.
-
-Companion instructions are included as files for a compatible assistant host. They do not install themselves, connect accounts, or schedule runs. Review their proposed external writes before authorizing them.
+This app comes from PM Toolkit. See [origin and license](ORIGIN.md). Google Fonts loads when internet access is available; system fonts provide a fallback.

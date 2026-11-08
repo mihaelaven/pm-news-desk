@@ -1,5 +1,7 @@
 # Origin and license
 
-Extracted from `mihaelaven/pm-toolkit-public`, app folder `apps/pm-news-desk`. The source repository may require access. The MIT license and its original copyright notice are preserved in `LICENSE`.
+This app comes from the `apps/pm-news-desk` folder in Mihaela's PM Toolkit. This repository packages the app with its setup guide, screenshot and companion instructions.
 
-This repository starts with a new history and excludes unrelated workflows, credentials and private test settings. The source app remains in PM Toolkit; this is a standalone copy rather than a synchronized mirror.
+Each standalone repository receives its own updates. The original toolkit stays separate.
+
+The [MIT license](LICENSE) includes the original copyright notice and the terms for reuse.
