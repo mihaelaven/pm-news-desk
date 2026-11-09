@@ -18,18 +18,16 @@ Build a digest from articles you open and date during this run. Use public sourc
 
 | Group | Sources |
 |---|---|
-| PM voices | Lenny's Newsletter and Lenny's Podcast (lennysnewsletter.com), SVPG (svpg.com/articles), Product Growth by Aakash Gupta (news.aakashg.com), The Beautiful Mess by John Cutler (cutlefish.substack.com), Product Talk by Teresa Torres (producttalk.org), Melissa Perri and the Product Thinking podcast (melissaperri.com), One Useful Thing by Ethan Mollick (oneusefulthing.org) |
-| LinkedIn | public posts by the people above plus Shreyas Doshi, opened in a browser |
-| Tech and AI news | anthropic.com/news, openai.com/news, deepmind.google/discover/blog, blog.google, techcrunch.com/latest, theverge.com, news.ycombinator.com, Hugging Face daily papers (product-relevant only) |
-| Launches and tools | producthunt.com/leaderboard/daily/YYYY/MM/DD, github.blog/changelog |
-| PM job market | layoffs.fyi, TechCrunch layoffs and hiring coverage |
+| PM voices | Lenny's Newsletter and Lenny's Podcast (lennysnewsletter.com), SVPG (svpg.com/articles), Product Growth by Aakash Gupta (news.aakashg.com), The Beautiful Mess by John Cutler (cutlefish.substack.com), Product Talk by Teresa Torres (producttalk.org), Product Thinking with Melissa Perri (productinstitute.com/resources/podcast/all-episodes), One Useful Thing by Ethan Mollick (oneusefulthing.org), Mind the Product (mindtheproduct.com) |
+| Tech and AI news | anthropic.com/news, developers.openai.com/api/docs/changelog, deepmind.google/blog, blog.google, techcrunch.com/latest, news.ycombinator.com, Hugging Face Daily Papers (huggingface.co/papers, product-relevant only) |
+| Launches and tools | producthunt.com/leaderboard/daily/YYYY/MM/DD, github.blog/changelog, Linear Changelog (linear.app/changelog), Intercom Changelog (intercom.com/changes/en) |
+| PM job market | TechCrunch layoffs and hiring coverage (techcrunch.com/tag/layoffs), Indeed Hiring Lab (hiringlab.indeed.com, prioritise tech hiring and job-posting trends) |
 
-
-Prefer Substack `/feed` pages for publication times. Use `/archive` for older entries. For LinkedIn, open public activity pages. Record sign-in pages as blocked and continue with public sources.
+Prefer Substack `/feed` pages for publication times. Use `/archive` for older entries. For aggregated listings, verify the date on the original item.
 
 ## Gather and verify
 
-1. Open each source. Record **reached** for a loaded source with dated items, or **blocked** with a reason.
+1. Open each source. Record **reached** for a loaded source with dated items, even when none fall in the window. Record **blocked** with the reason when access or date verification fails. List any sources you did not check in the run notes.
 2. Open each candidate's own article page. Keep articles that load successfully and show a publication date within the window. Use the original publication date for reposts.
 3. For a visible date with an unstated time, record "Time unspecified" in Notes. Record source access or dating problems in the run report.
 4. Write each entry from its source: title, source, author, publication date, a short summary, why it matters and topic. Use ISO 8601 with an offset when a time is available. Attribute a company-authored article to that company.
