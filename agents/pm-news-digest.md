@@ -19,8 +19,9 @@ Build a digest from articles you open and date during this run. Use public sourc
 | Group | Sources |
 |---|---|
 | PM voices | Lenny's Newsletter and Lenny's Podcast (lennysnewsletter.com), SVPG (svpg.com/articles), Product Growth by Aakash Gupta (news.aakashg.com), The Beautiful Mess by John Cutler (cutlefish.substack.com), Product Talk by Teresa Torres (producttalk.org), Product Thinking with Melissa Perri (productinstitute.com/resources/podcast/all-episodes), One Useful Thing by Ethan Mollick (oneusefulthing.org), Mind the Product (mindtheproduct.com) |
-| Tech and AI news | anthropic.com/news, developers.openai.com/api/docs/changelog, deepmind.google/blog, blog.google, techcrunch.com/latest, news.ycombinator.com, Hugging Face Daily Papers (huggingface.co/papers, product-relevant only) |
-| Launches and tools | producthunt.com/leaderboard/daily/YYYY/MM/DD, github.blog/changelog, Linear Changelog (linear.app/changelog), Intercom Changelog (intercom.com/changes/en) |
+| Tech news and analysis | TechCrunch (techcrunch.com/latest), Ars Technica (arstechnica.com), Engadget (engadget.com), Axios Technology (axios.com/technology), GeekWire (geekwire.com), The Register (theregister.com), Platformer (platformer.news, publicly readable articles), Nieman Lab (niemanlab.org, product and platform coverage only), Hacker News (news.ycombinator.com, for discovery) |
+| AI and platform announcements | anthropic.com/news, developers.openai.com/api/docs/changelog, deepmind.google/blog, blog.google, Apple Developer News (developer.apple.com/news), Microsoft Copilot Blog (microsoft.com/en-us/copilot/blog), Hugging Face Daily Papers (huggingface.co/papers, product-relevant only) |
+| Launches and tools | producthunt.com/leaderboard/daily/YYYY/MM/DD, github.blog/changelog, Linear Changelog (linear.app/changelog), Intercom Changelog (intercom.com/changes/en), Figma Release Notes (figma.com/release-notes), Shopify Changelog (changelog.shopify.com) |
 | PM job market | TechCrunch layoffs and hiring coverage (techcrunch.com/tag/layoffs), Indeed Hiring Lab (hiringlab.indeed.com, prioritise tech hiring and job-posting trends) |
 
 Prefer Substack `/feed` pages for publication times. Use `/archive` for older entries. For aggregated listings, verify the date on the original item.
