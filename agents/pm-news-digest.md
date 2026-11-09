@@ -20,11 +20,14 @@ Build a digest from articles you open and date during this run. Use public sourc
 |---|---|
 | PM voices | Lenny's Newsletter and Lenny's Podcast (lennysnewsletter.com), SVPG (svpg.com/articles), Product Growth by Aakash Gupta (news.aakashg.com), The Beautiful Mess by John Cutler (cutlefish.substack.com), Product Talk by Teresa Torres (producttalk.org), Product Thinking with Melissa Perri (productinstitute.com/resources/podcast/all-episodes), One Useful Thing by Ethan Mollick (oneusefulthing.org), Mind the Product (mindtheproduct.com) |
 | Tech news and analysis | TechCrunch (techcrunch.com/latest), Ars Technica (arstechnica.com), Engadget (engadget.com), Axios Technology (axios.com/technology), GeekWire (geekwire.com), The Register (theregister.com), Platformer (platformer.news, publicly readable articles), Nieman Lab (niemanlab.org, product and platform coverage only), Hacker News (news.ycombinator.com, for discovery) |
+| Product and market analysis | [Benedict Evans](https://www.ben-evans.com/benedictevans), [Stratechery](https://stratechery.com/), [a16z News and Content](https://a16z.com/news-content/), [Baymard Institute](https://baymard.com/blog), [Nielsen Norman Group](https://www.nngroup.com/articles/), [Simon Willison](https://simonwillison.net/), [UXmatters](https://www.uxmatters.com/) |
+| Regional and startup news | [Sifted](https://sifted.eu/), [Tech.eu](https://tech.eu/), [Tech in Asia](https://www.techinasia.com/), [Rest of World](https://restofworld.org/), [LatamList](https://latamlist.com/), [Disrupt Africa](https://disruptafrica.com/), [The Decoder](https://the-decoder.com/), [VentureBeat AI](https://venturebeat.com/category/ai), [404 Media](https://www.404media.co/) |
 | AI and platform announcements | anthropic.com/news, developers.openai.com/api/docs/changelog, deepmind.google/blog, blog.google, Apple Developer News (developer.apple.com/news), Microsoft Copilot Blog (microsoft.com/en-us/copilot/blog), Hugging Face Daily Papers (huggingface.co/papers, product-relevant only) |
 | Launches and tools | producthunt.com/leaderboard/daily/YYYY/MM/DD, github.blog/changelog, Linear Changelog (linear.app/changelog), Intercom Changelog (intercom.com/changes/en), Figma Release Notes (figma.com/release-notes), Shopify Changelog (changelog.shopify.com) |
+| Launch and release discovery | [Show HN](https://news.ycombinator.com/show), [Chrome for Developers release notes](https://developer.chrome.com/release-notes), [Mozilla Firefox Release Notes](https://www.firefox.com/en-US/releases/), [Vercel Changelog](https://vercel.com/changelog), [Cloudflare Changelog](https://developers.cloudflare.com/changelog/), [Supabase Changelog](https://supabase.com/changelog), [Notion Releases](https://www.notion.com/releases), [Stripe Changelog](https://docs.stripe.com/changelog), [AWS What's New](https://aws.amazon.com/new/), [Slack Updates](https://slack.com/intl/en-gb/blog/news) |
 | PM job market | TechCrunch layoffs and hiring coverage (techcrunch.com/tag/layoffs), Indeed Hiring Lab (hiringlab.indeed.com, prioritise tech hiring and job-posting trends) |
 
-Prefer Substack `/feed` pages for publication times. Use `/archive` for older entries. For aggregated listings, verify the date on the original item.
+Prefer Substack `/feed` pages for publication times. Use `/archive` for older entries. For aggregated listings, including Show HN, open the original announcement and verify its publication date. Use publicly readable articles and release notes.
 
 ## Gather and verify
 
@@ -33,7 +36,7 @@ Prefer Substack `/feed` pages for publication times. Use `/archive` for older en
 3. For a visible date with an unstated time, record "Time unspecified" in Notes. Record source access or dating problems in the run report.
 4. Write each entry from its source: title, source, author, publication date, a short summary, why it matters and topic. Use ISO 8601 with an offset when a time is available. Attribute a company-authored article to that company.
 5. Merge coverage of the same story. Link to the primary source and name other coverage in Notes.
-6. Rank stories by their relevance to product work. Aim for 10 to 30 verified stories; use a smaller digest when fewer qualify.
+6. Rank stories by their relevance to product work. Include useful analysis, launches, and news when each has qualifying stories. For changelogs, favour releases that change a user workflow, platform capability, pricing, or distribution. Aim for 10 to 30 verified stories; use a smaller digest when fewer qualify.
 
 Topics: PM voices, AI models and tools, Tech news, Launches, Teardowns, Job market. Keep summaries to one or two sentences. Use brief exact quotes when needed.
 
